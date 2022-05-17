@@ -6,8 +6,17 @@
 }
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.55);
-    border-color: orange;
+    border-color: rgb(30, 21, 4);
 }
 .navbar-toggler{
     border: 2px solid transparent;
+}
+.col{
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    border: 2px solid;
+}
+.carousel{
+    align-content: center;
 }

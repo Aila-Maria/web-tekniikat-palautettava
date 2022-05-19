@@ -2,11 +2,11 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar-collapse {
-    background-color: grey;
+    background-color: rgb(215, 203, 178);
 }
 .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.55);
-    border-color: rgb(30, 21, 4);
+    color: rgb(215, 203, 178);
+    border-color: antiquewhite;
 }
 .navbar-toggler{
     border: 2px solid transparent;
@@ -15,8 +15,29 @@
     text-align: center;
     margin: 10px;
     padding-top: 10px;
-    border: 2px solid;
+    
 }
 .carousel{
     align-content: center;
+    
 }
+.headline{
+    text-align: center;
+}
+#infoboxi {
+    border: 2px solid ;
+    border-color: antiquewhite;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.accordion-body{
+    color: rgb(113, 113, 106);
+}
+.accordion-button{
+    color: rgb(147, 141, 133);
+}
+body{
+    background-color: rgb(238, 237, 231);
+}
+
+    

@@ -26,7 +26,7 @@
 }
 #infoboxi {
     border: 2px solid ;
-    border-color: antiquewhite;
+    border-color: rgb(231, 216, 195);
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -39,5 +39,16 @@
 body{
     background-color: rgb(238, 237, 231);
 }
+#tietoa{
+    border: 2px solid ;
+    border-color: rgb(231, 216, 195);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.card{
+    margin-bottom: 20px;
+}
+
 
     

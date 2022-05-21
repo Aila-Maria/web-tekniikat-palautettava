@@ -1,6 +1,7 @@
 .navbar{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .navbar-collapse {
     background-color: rgb(215, 203, 178);
 }
@@ -19,7 +20,6 @@
 }
 .carousel{
     align-content: center;
-    
 }
 .headline{
     text-align: center;
@@ -48,6 +48,9 @@ body{
 }
 .card{
     margin-bottom: 20px;
+}
+.card img{
+    height: 180px;
 }
 
 

@@ -52,6 +52,14 @@ body{
 .card img{
     height: 180px;
 }
-
-
+.clearfix{
+    margin-top: 20px;
+    border: 2px solid;
+    border-color: rgb(231, 216, 195);
+    padding: 10px;
+}
+.clearfix img{
+    width: 300px;
+    height: 400px;
+}
     

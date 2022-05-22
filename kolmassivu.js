@@ -1,5 +1,5 @@
 //tekstin ja värin vaihto
-document.querySelector("h4").textContent=" Hanbok korean perinneasu";
+document.querySelector("h4").textContent=" Hanbok korean kansallispuku";
 let h4= document.querySelector("h4");
 h4.style.color= "pink";
 

@@ -1,6 +1,9 @@
 $border-color:rgb(231, 216, 195);
 $font-stack: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+@mixin color($color:teal) {
+    text-align: center;
+    color: $color;
+}
 .navbar{
     font-family: $font-stack;
 }
@@ -25,7 +28,7 @@ $font-stack: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-content: center;
 }
 .headline{
-    text-align: center;
+    @include color;
 }
 #infoboxi {
     border: 2px solid ;

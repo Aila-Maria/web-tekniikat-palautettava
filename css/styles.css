@@ -30,6 +30,9 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+.accordion{
+    margin-bottom: 10px;
+}
 .accordion-body{
     color: rgb(113, 113, 106);
 }
@@ -58,9 +61,9 @@ body{
     border: 2px solid;
     border-color: rgb(231, 216, 195);
     padding: 10px;
+    
 }
 .clearfix img{
     width: 300px;
     height: 400px;
 }
-    

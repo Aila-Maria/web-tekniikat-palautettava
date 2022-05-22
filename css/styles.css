@@ -58,6 +58,7 @@ body{
 }
 .clearfix{
     margin-top: 20px;
+    margin-bottom: 20px;
     border: 2px solid;
     border-color: rgb(231, 216, 195);
     padding: 10px;

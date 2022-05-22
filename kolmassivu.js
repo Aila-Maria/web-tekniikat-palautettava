@@ -1,13 +1,26 @@
-//tekstin vaihto
+//tekstin ja värin vaihto
 document.querySelector("h4").textContent=" Hanbok korean perinneasu";
+let h4= document.querySelector("h4");
+h4.style.color= "pink";
 
+//Tekstin värinvaihto kun hiiri on tekstin päällä
+let p= document.querySelector("p");
+p.addEventListener("mouseenter",changeColor);
+p.addEventListener("mouseleave",changeColor);
+
+function changeColor(){
+    p.classList.toggle("textcolor");
+}
+
+//tekstin värin vaihto
 let m = document.getElementById("clearfix");
 m.style.color = "teal";
 
+//taustan värin vaihto
 let n=document.getElementById("clearfix");
 n.style.backgroundColor = "beige";
 
-//seuraava ja takaisin nappuloiden toiminta
+//Alkuun ja takaisin nappuloiden toiminta
 let button1= document.getElementById("home");
 let button2= document.getElementById("back");
 
@@ -22,3 +35,14 @@ function alkuun(){
 function takaisin(){
     location.href="toinensivu.html";
 }
+
+fetch('https://yesno.wtf/api/')
+.then(response => response.json())
+.then(
+    data => {document.getElementById('print-here').innerHTML = "<h5>" +
+    data.answer +"<h5>";
+    document.getElementById('print-here').innerHTML +=
+    '<Img src="' + data.image +'"/>';
+}
+);
+
